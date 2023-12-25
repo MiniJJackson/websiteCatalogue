@@ -1,0 +1,22 @@
+dateModified: 1703527200
+email:
+  fromEmail: r0889235@student.thomasmore.be
+  fromName: website-catalogue-jenna
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    6e810cb9-8c20-4755-a797-96bd6f846e03: website-catalogue-jenna # website-catalogue-jenna
+    44b7e98b-b731-4515-bf97-08345b465c53: website-catalogue-jenna # website-catalogue-jenna
+    fc9333db-6621-4d4f-ba22-77708c9499dc: Common # Common
+system:
+  edition: solo
+  live: true
+  name: website-catalogue-jenna
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
