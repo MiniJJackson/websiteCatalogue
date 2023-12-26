@@ -1,4 +1,4 @@
-dateModified: 1703618607
+dateModified: 1703622977
 email:
   fromEmail: r0889235@student.thomasmore.be
   fromName: website-catalogue-jenna
@@ -21,6 +21,7 @@ meta:
     47b4367b-f93a-41b8-aceb-0529979042b0: footer # footer
     049bab6c-69dc-48cb-86ed-93ff908e98ce: 'about me' # about me
     339eb03e-fa58-4078-b84b-e03820d442a2: 'store URL' # store URL
+    00387e9f-b8bc-4db7-9b88-7f4b7dd81e78: 'about me image' # about me image
     747f8d18-db93-481e-9316-7fe869cee70a: 'banner image' # banner image
     949e0b94-ccdf-4d84-83e5-820e7b264241: 'intro text' # intro text
     950b49e2-61ce-4ea3-9405-8694fdb33c01: 'thumbnail image' # thumbnail image

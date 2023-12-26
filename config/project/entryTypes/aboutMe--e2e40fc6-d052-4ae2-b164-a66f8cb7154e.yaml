@@ -42,7 +42,19 @@ fieldLayouts:
             uid: b2794282-464e-4284-92ca-51b4ac93e993
             userCondition: null
             warning: null
-            width: 100
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 00387e9f-b8bc-4db7-9b88-7f4b7dd81e78 # about me image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 754d6260-a07f-4210-8a3b-96fbf5a10d79
+            userCondition: null
+            warning: null
+            width: 50
         name: Content
         uid: 19546b0a-ed17-4ee5-9b9f-af0e8e7e98d8
         userCondition: null
