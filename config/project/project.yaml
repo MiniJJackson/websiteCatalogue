@@ -1,13 +1,47 @@
-dateModified: 1703527200
+dateModified: 1703618607
 email:
   fromEmail: r0889235@student.thomasmore.be
   fromName: website-catalogue-jenna
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@web'
 meta:
   __names__:
+    5c376573-4a59-4922-8247-2acaf440f446: Default # Default
+    6be3b7cb-7a64-4c2e-93a9-23168b5fe4e4: footer # footer
     6e810cb9-8c20-4755-a797-96bd6f846e03: website-catalogue-jenna # website-catalogue-jenna
+    38e6dd05-1b9d-429d-88b5-48250600bdef: 'header image' # header image
     44b7e98b-b731-4515-bf97-08345b465c53: website-catalogue-jenna # website-catalogue-jenna
+    47b4367b-f93a-41b8-aceb-0529979042b0: footer # footer
+    049bab6c-69dc-48cb-86ed-93ff908e98ce: 'about me' # about me
+    339eb03e-fa58-4078-b84b-e03820d442a2: 'store URL' # store URL
+    747f8d18-db93-481e-9316-7fe869cee70a: 'banner image' # banner image
+    949e0b94-ccdf-4d84-83e5-820e7b264241: 'intro text' # intro text
+    950b49e2-61ce-4ea3-9405-8694fdb33c01: 'thumbnail image' # thumbnail image
+    5979cadc-6af2-42c3-81c4-3f1e0fa9c44e: 'Store Categories' # Store Categories
+    9322f062-f29d-4a84-bc31-048b99079f9c: header # header
+    b4c1e840-b1f4-45c6-9bca-792841f68790: clothing # clothing
+    bde4c2bf-2d99-405d-8328-2a8a6d1a2622: 'rich text' # rich text
+    bfe79ef9-ca08-4e13-88fe-b0c867e5c150: 'Store categories' # Store categories
+    c0fd89aa-f100-43a6-8cd0-c8bd2cdcadbb: 'clothing assets' # clothing assets
+    c73e06ba-3614-49ed-bb16-2259d8c667fa: header # header
+    d1e847db-84c4-4def-8319-bbe9c519583d: 'about me image' # about me image
+    e2e40fc6-d052-4ae2-b164-a66f8cb7154e: 'about me' # about me
+    e91514ce-8f1a-4263-b280-1513f8592a63: 'full text' # full text
+    fb538d7b-bb72-4c7e-af7f-640b76c2b8e9: 'banner image' # banner image
     fc9333db-6621-4d4f-ba22-77708c9499dc: Common # Common
+    fe1e0498-1917-46f6-963f-c9121c2cf577: Default # Default
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

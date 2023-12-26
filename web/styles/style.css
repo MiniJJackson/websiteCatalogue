@@ -1,12 +1,15 @@
 body {
-  background-color: #F8F6F6;
+  background-color: #C1CDD2;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: #2b2b2b;
 }
+/*--- GENERAL ---*/
+
+
 
 header {
-  background-color: #fff;
+  background-color: #f1f1f1;
   padding: 1em;
 
 }
@@ -23,29 +26,32 @@ h1 {
 
 }
 
-nav {
-  /* display: flex;
-  justify-content: flex-end;
-  flex-direction: column; */
-
-}
-
-nav li {
-  padding: 1em 1.25em;
-  /* border-bottom: 1px solid #000; */
-}
-
-a {
-  color: #D24335;
-  text-decoration: none;
-}
-
 h2 a:hover {
   text-decoration: underline;
 }
 
+
+h2,
+.highlight {
+  color: #96c6f3;
+}
+
+
+/*--- NAV ---*/
+
+
+nav li {
+  padding: 1em 1.25em;
+}
+
+a {
+  color: #C6DDF2;
+  text-decoration: none;
+}
+
+
 nav a:hover {
-  color: #D24335;
+  color: #C6DDF2;
 }
 
 .button {
@@ -72,16 +78,13 @@ nav a {
   transition: color 0.3s ease;
 }
 
-h2,
-.highlight {
-  color: #D24335;
-}
-
 .button {
   padding: 0.5em 1em;
   border-radius: 5px;
-  border: 1px solid #D24335;
+  border: 1px solid #C6DDF2;
 }
+
+/*--- SECTIONS ---*/
 
 .news-section {
   padding: 2em;
@@ -95,7 +98,7 @@ h2,
 }
 
 .btn-more:hover {
-  background-color: #D24335;
+  background-color: #C6DDF2;
   color: #fff;
 }
 
@@ -132,6 +135,9 @@ h2,
 
 }
 
+
+/*--- DETAILS ---*/
+
 .article-details {
   max-width: 800px;
   background-color: #fff;
@@ -153,6 +159,8 @@ h2,
   margin-left: 2rem;
 }
 
+
+
 .plugin-categories {
   padding: 1rem 0 0 0;
   display: flex;
@@ -171,7 +179,7 @@ h2,
 }
 
 .plugin-categories label {
-  border: 1px solid #D24335;
+  border: 1px solid #C6DDF2;
   border-radius: 20px;
   padding: 10px;
   margin-top: 0.5rem;
@@ -180,16 +188,21 @@ h2,
 .plugin-categories label:has(input:checked) {
 
   color: #fff;
-  background-color: #D24335;
+  background-color: #C6DDF2;
 }
 
 
+/*--- FOOTER ---*/
+
 footer {
-  background-color: #2b2b2b;
-  color: #fff;
+  background-color: #425061;
+  color: #f1f1f1;
   padding: 1em;
   text-align: center;
 }
+
+
+/*--- MEDIA QUERIES ---*/
 
 @media only screen and (max-width: 959px) {
 
@@ -209,8 +222,6 @@ footer {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
   }
 
-
-
   nav {
     display: block;
     position: absolute;
@@ -221,10 +232,6 @@ footer {
     user-select: none;
 
   }
-
-
-
-
 
 
   nav input {
@@ -253,7 +260,7 @@ footer {
     margin-bottom: 5px;
     position: relative;
 
-    background: #cdcdcd;
+    background: #9FB4CC;
     border-radius: 3px;
 
     z-index: 1;

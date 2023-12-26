@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: header
+name: header
+propagationMethod: all
+siteSettings:
+  6e810cb9-8c20-4755-a797-96bd6f846e03: # website-catalogue-jenna
+    enabledByDefault: true
+    hasUrls: true
+    template: header/_entry
+    uriFormat: header
+type: single

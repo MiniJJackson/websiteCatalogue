@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storeCategories
+name: 'Store Categories'
+propagationMethod: all
+siteSettings:
+  6e810cb9-8c20-4755-a797-96bd6f846e03: # website-catalogue-jenna
+    enabledByDefault: true
+    hasUrls: true
+    template: store-categories/_entry
+    uriFormat: 'store-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: da75ba62-de5d-4c0c-8611-12cc2611fd4f
+type: structure
