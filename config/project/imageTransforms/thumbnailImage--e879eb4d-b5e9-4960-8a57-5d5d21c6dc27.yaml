@@ -1,11 +1,11 @@
-fill: null
+fill: '#f1f1f1'
 format: null
-handle: headerImage
-height: 320
+handle: thumbnailImage
+height: 800
 interlace: none
 mode: crop
-name: 'header image'
+name: 'thumbnail image'
 position: center-center
 quality: null
 upscale: true
-width: 800
+width: 400

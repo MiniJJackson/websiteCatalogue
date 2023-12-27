@@ -122,10 +122,12 @@ nav a {
 
 .clothing-section article img {
   max-width: 100%;
-  max-height: 400px;
+  max-height: 500px;
   display: block;
   margin: auto;
 }
+
+
 
 /* CATEGORIESS */ 
 
@@ -146,25 +148,31 @@ nav a {
 
 /*--- DETAILS ---*/
 
-.article-details {
-  max-width: 800px;
+.clothing-details {
+  max-width: 1000px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
 }
 
-.article-details img {
-  width: 100%;
+.clothing-details img {
+  width: 40%;
+  min-height: 400px;
 }
 
-.article-details p {
+.clothing-details p {
   margin: 2rem;
-
 }
 
-.article-details h2 {
+.clothing-details h2 {
   margin-left: 2rem;
+}
+
+.flexBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

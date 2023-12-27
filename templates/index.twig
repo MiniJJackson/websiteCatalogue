@@ -2,7 +2,7 @@
 {% extends "_layout" %}
 
 {% block content %}
-    <h1>New in</h1>
+    <h1> ~ New in ~ </h1>
 
     <section class="clothing-section">
     {% set entries = craft.entries().section('clothing').limit(4) %}
@@ -10,6 +10,8 @@
     {% for entry in entries %}
         <article>
             <picture>
+            
+            <source media="(min-width:960px)" srcset="{{entry.bannerImage.one().url('thumbnailImage')}}">
             <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
             </picture>
             <div>
