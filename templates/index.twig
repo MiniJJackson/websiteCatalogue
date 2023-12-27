@@ -1,6 +1,27 @@
+{# .twig mag je weglaten als het een twig bestand is #}
 {% extends "_layout" %}
 
 {% block content %}
-    <h1>Jenna's Clothing catalog</h1>
-    <p>Hello there.</p>
+    <h1>New in</h1>
+
+    <section class="clothing-section">
+    {% set entries = craft.entries().section('clothing').limit(4) %}
+
+    {% for entry in entries %}
+        <article>
+            <picture>
+            <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
+            </picture>
+            <div>
+                <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+                <p>{{entry.introText}}</p>
+                <a href="{{entry.url}}">read more</a>
+            </div>
+        </article>
+    {% endfor %}
+
+
+    <a class="button btn-more" href="/clothing">More Clothes</a>
+
+    </section>
 {% endblock %}
