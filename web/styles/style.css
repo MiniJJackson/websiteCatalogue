@@ -15,7 +15,8 @@ header {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-weight: normal;
 }
 
@@ -23,7 +24,10 @@ h1 {
   margin: 1em 0;
   text-align: center;
   font-size: 1.75em;
-
+}
+h3{
+  margin: 1em 0;
+  font-size: 1em;
 }
 
 h2 a:hover {
@@ -91,8 +95,9 @@ nav a {
 .btn-more {
   display: block;
   text-align: center;
-  width: 100px;
+  width: 150px;
   transition: all 0.5s;
+  margin-bottom: 40px;
 }
 
 .btn-more:hover {
@@ -111,7 +116,7 @@ nav a {
 .clothing-section article {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   background-color: #C6DDF2;
-  padding: 1em;
+  padding: 1.2em;
   margin-bottom: 1.5em;
   border-radius: 5px;
   max-width: 400px;
@@ -122,24 +127,32 @@ nav a {
 
 .clothing-section article img {
   max-width: 100%;
-  max-height: 500px;
   display: block;
   margin: auto;
 }
 
+.readMore{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 /* CATEGORIESS */ 
 
 .clothing-section article .categories {
   padding: 0.5rem 0;
+
+  position:relative;
+   bottom:0;
+   right:0;
 }
 
 .clothing-section article .categories span {
   display: inline-block;
   text-transform: uppercase;
   font-size: 0.75rem;
-  padding: 0.25rem;
+  padding: 0.5rem;
   border-radius: 5px;
   border: 1px solid #F6F4F4;
 
@@ -149,19 +162,30 @@ nav a {
 /*--- DETAILS --- NOT GUUDD */
 
 .clothing-details {
-  max-width: 1000px;
+  max-width: 900px;
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
 }
 
-.clothing-details p {
-  margin: 2rem;
+.clothing-details img {
+  max-height: 400px;
+  display: block;
+  margin: auto;
+  padding: 1.5em;
 }
 
-.clothing-details h2 {
+.clothing-details p {
+  margin: 1rem 2rem;
+}
+
+.clothing-details h2,h3 {
   margin-left: 2rem;
+}
+
+.clothing-details h3{
+  color: #9FB4CC;
 }
 
 .flexBox{
@@ -170,6 +194,7 @@ nav a {
   align-items: center;
 }
 /*-- NOT GUUDD --*/
+
 
 /*--- ABOUT ME ---*/
 
@@ -289,7 +314,6 @@ footer {
   nav #menu-toggle:checked~#nav-menu {
     transform: none;
 
-
   }
 
   #nav-menu li {
@@ -328,6 +352,7 @@ footer {
     justify-content: space-around;
   }
 
+  /*
   .clothing-section article {
     max-width: 1000px;
     display: grid;
@@ -340,11 +365,22 @@ footer {
 
   .clothing-section article div {
     padding-left: 1em;
+  }*/
+
+  .clothing-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
 
 
-  .clothing-section .btn-more {
+  .btn-more {
     width: 300px;
+    margin-bottom: 40px;
   }
 
   .all-clothing.clothing-section {

@@ -1,0 +1,19 @@
+columnSuffix: vqhvmsvi
+contentColumnType: text
+fieldGroup: fc9333db-6621-4d4f-ba22-77708c9499dc # Common
+handle: brand
+instructions: null
+name: brand
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

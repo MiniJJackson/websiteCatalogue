@@ -10,20 +10,18 @@
     {% for entry in entries %}
         <article>
             <picture>
-            
             <source media="(min-width:960px)" srcset="{{entry.bannerImage.one().url('thumbnailImage')}}">
             <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
             </picture>
             <div>
                 <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+                <h3>{{entry.brand}}</h3>
                 <p>{{entry.introText}}</p>
-                <a href="{{entry.url}}">read more</a>
+                <a class="readMore" href="{{entry.url}}">read more</a>
             </div>
         </article>
     {% endfor %}
 
-
-    <a class="button btn-more" href="/clothing">More Clothes</a>
-
     </section>
+    <a class="button btn-more" href="/clothing">More Clothes</a>
 {% endblock %}

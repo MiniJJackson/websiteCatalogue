@@ -1,7 +1,7 @@
-fill: '#f1f1f1'
+fill: null
 format: null
 handle: thumbnailImage
-height: 800
+height: 400
 interlace: none
 mode: crop
 name: 'thumbnail image'

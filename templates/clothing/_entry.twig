@@ -4,10 +4,15 @@
 {% block content %}
     <section class="clothing-details">
     <div class="flexBox">  
-        <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
+        <img src="{{entry.bannerImage.one().url('bannerImage')}}" alt="">
         <div>
         <h2>{{entry.title}}</h2>
+        <h3>{{entry.brand}}</h3>
         <p>{{entry.introText}}</p>
+        <div class="flexBox">
+            <p><a href={{entry.storeUrl}}>AMAZON</a></p>
+            <p>{{entry.price}} &euro;</p>
+        </div>    
         </div>
     </div>
     <p>{{entry.fullText}}</p>

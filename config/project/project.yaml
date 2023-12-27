@@ -1,4 +1,4 @@
-dateModified: 1703693049
+dateModified: 1703709249
 email:
   fromEmail: r0889235@student.thomasmore.be
   fromName: website-catalogue-jenna
@@ -13,9 +13,11 @@ fs:
     url: '@web'
 meta:
   __names__:
+    0cf613ab-bc4f-4c37-a822-d879ae048be1: brand # brand
     5c376573-4a59-4922-8247-2acaf440f446: Default # Default
     6be3b7cb-7a64-4c2e-93a9-23168b5fe4e4: footer # footer
     6e810cb9-8c20-4755-a797-96bd6f846e03: website-catalogue-jenna # website-catalogue-jenna
+    32ba06a5-e30c-4f7e-82d9-4b336ef1f95a: 'banner image' # banner image
     44b7e98b-b731-4515-bf97-08345b465c53: website-catalogue-jenna # website-catalogue-jenna
     47b4367b-f93a-41b8-aceb-0529979042b0: footer # footer
     049bab6c-69dc-48cb-86ed-93ff908e98ce: 'about me' # about me
@@ -33,6 +35,7 @@ meta:
     e2e40fc6-d052-4ae2-b164-a66f8cb7154e: 'about me' # about me
     e879eb4d-b5e9-4960-8a57-5d5d21c6dc27: 'thumbnail image' # thumbnail image
     e91514ce-8f1a-4263-b280-1513f8592a63: 'full text' # full text
+    f3a6627e-ad6a-4402-b5e0-d379e2c8e92c: price # price
     fb538d7b-bb72-4c7e-af7f-640b76c2b8e9: 'banner image' # banner image
     fc9333db-6621-4d4f-ba22-77708c9499dc: Common # Common
     fe1e0498-1917-46f6-963f-c9121c2cf577: Default # Default

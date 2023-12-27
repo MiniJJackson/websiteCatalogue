@@ -1,0 +1,20 @@
+columnSuffix: piiwdyxh
+contentColumnType: 'decimal(12,2)'
+fieldGroup: fc9333db-6621-4d4f-ba22-77708c9499dc # Common
+handle: price
+instructions: null
+name: price
+searchable: false
+settings:
+  decimals: 2
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

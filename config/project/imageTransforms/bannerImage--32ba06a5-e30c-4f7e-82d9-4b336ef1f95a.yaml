@@ -1,0 +1,11 @@
+fill: transparent
+format: null
+handle: bannerImage
+height: 800
+interlace: none
+mode: letterbox
+name: 'banner image'
+position: center-center
+quality: null
+upscale: true
+width: 600

@@ -36,7 +36,7 @@ fieldLayouts:
             fieldUid: fb538d7b-bb72-4c7e-af7f-640b76c2b8e9 # banner image
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: a4d33cf4-3bf2-4c9f-92c9-eeea7e3bbb70
@@ -45,10 +45,22 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 949e0b94-ccdf-4d84-83e5-820e7b264241 # intro text
+            fieldUid: 0cf613ab-bc4f-4c37-a822-d879ae048be1 # brand
             instructions: null
             label: null
             required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9a8667e-e4b1-4128-afdc-7dc83df69e3b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 949e0b94-ccdf-4d84-83e5-820e7b264241 # intro text
+            instructions: null
+            label: null
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 3b35b191-49c9-4e7d-8f92-3637f2f7ed24
@@ -60,7 +72,7 @@ fieldLayouts:
             fieldUid: e91514ce-8f1a-4263-b280-1513f8592a63 # full text
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: ca3b3019-1a8b-4c7a-84c9-6ab542858d04
@@ -72,10 +84,34 @@ fieldLayouts:
             fieldUid: bfe79ef9-ca08-4e13-88fe-b0c867e5c150 # Store categories
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b0e8e927-df0c-4bb3-a4eb-2ef4024470b0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f3a6627e-ad6a-4402-b5e0-d379e2c8e92c # price
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cff9fa82-8901-4f09-89d2-4e1c98fc7240
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 339eb03e-fa58-4078-b84b-e03820d442a2 # store URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b46623a-c376-4499-9f39-57d5f745e92e
             userCondition: null
             warning: null
             width: 100

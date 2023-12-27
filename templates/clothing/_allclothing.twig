@@ -1,0 +1,27 @@
+{% extends "_layout" %}
+
+{% block content %}
+    <h1> ~ All Clothes ~ </h1>
+
+    <section class="clothing-section all-clothing">
+        {% set entries = craft.entries().section('clothing').all() %}
+
+        {% for entry in entries %}
+        <article>
+            <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
+            <div>
+            <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+            <h3>{{entry.brand}}</h3>
+            <p>{{entry.introText}}</p>
+            <div class="categories">
+                    {% for category in entry.storeCategories %}
+                        <span>{{category}}</span>
+                    {% endfor %}
+            </div>
+            <p>{{entry.price}} &euro;</p>
+            </div>
+        </article>
+        {% endfor %}
+    </section>
+    
+{% endblock %}
