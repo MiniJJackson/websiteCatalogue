@@ -146,7 +146,7 @@ nav a {
 }
 
 
-/*--- DETAILS ---*/
+/*--- DETAILS --- NOT GUUDD */
 
 .clothing-details {
   max-width: 1000px;
@@ -154,11 +154,6 @@ nav a {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
-}
-
-.clothing-details img {
-  width: 40%;
-  min-height: 400px;
 }
 
 .clothing-details p {
@@ -174,7 +169,7 @@ nav a {
   justify-content: center;
   align-items: center;
 }
-
+/*-- NOT GUUDD --*/
 
 /*--- ABOUT ME ---*/
 
