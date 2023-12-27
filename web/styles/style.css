@@ -71,6 +71,8 @@ nav a:hover {
   color: #757CA3;
   background-color: #f1f1f1;
   border: 1px solid #C6DDF2;
+
+  cursor: pointer;
 }
 
 #nav-menu {
@@ -138,8 +140,8 @@ nav a {
 }
 
 
-/* CATEGORIESS */ 
-
+/*---  CATEGORIESS ---*/ 
+/* MAYBE PUT THEM NEXT TO CLOTHES */
 
 
 .clothing-section article .categories span {
@@ -219,6 +221,18 @@ nav a {
   justify-content: center;
   align-items: center;
 }
+
+.topDetail{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+}
+
+.goBack{
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
 /*-- NOT GUUDD --*/
 
 
@@ -226,9 +240,10 @@ nav a {
 
 .about-section {
   padding: 2em;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
+  background-color: #C6DDF2;
 }
 
 

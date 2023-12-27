@@ -2,8 +2,10 @@
 {# One entry Detail pagina #}
 
 {% block content %}
+    
     <section class="clothing-details">
-    <div class="flexBox">  
+    <button class="button goBack" onclick="history.back()">Go Back</button>
+    <div class="flexBox topDetail">  
         <img src="{{entry.bannerImage.one().url('bannerImage')}}" alt="">
         <div>
         <h2>{{entry.title}}</h2>
