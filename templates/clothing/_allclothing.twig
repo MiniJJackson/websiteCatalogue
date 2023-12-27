@@ -3,25 +3,73 @@
 {% block content %}
     <h1> ~ All Clothes ~ </h1>
 
+    {% set categories = craft.entries().section('storeCategories').all() %}
+    <div class="clothing-categories">
+      {% for cat in categories %}
+        <label><input type="checkbox" name="{{cat}}"/>{{cat}}</label>
+      {% endfor %}
+    </div>
+    
+
     <section class="clothing-section all-clothing">
         {% set entries = craft.entries().section('clothing').all() %}
 
         {% for entry in entries %}
-        <article>
+        <article  
+            {% for category in entry.storeCategories %}
+                data-{{category}}
+            {% endfor %}
+        >
             <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
             <div>
-            <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
-            <h3>{{entry.brand}}</h3>
-            <p>{{entry.introText}}</p>
-            <div class="categories">
-                    {% for category in entry.storeCategories %}
-                        <span>{{category}}</span>
-                    {% endfor %}
-            </div>
-            <p>{{entry.price}} &euro;</p>
+                <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+                <h3>{{entry.brand}}</h3>
+                <p>{{entry.introText}}</p>
+                <div class="categories">
+                        {% for category in entry.storeCategories %}
+                            <span>{{category}}</span>
+                        {% endfor %}
+                </div>
+                <p>{{entry.price}} &euro;</p>
             </div>
         </article>
         {% endfor %}
     </section>
     
+    {# SCRIPT #}
+    <script>
+    let selectedCategories = [];
+
+    document.querySelectorAll(".clothing-categories input").forEach((element) => {
+      element.addEventListener("change", onSelectCategory);
+    });
+
+
+    function onSelectCategory(e) {
+      if (selectedCategories.includes(this.name)) {
+        let index = selectedCategories.indexOf(this.name);
+        selectedCategories.splice(index, 1);
+      }
+      else {
+        selectedCategories.push(this.name);
+      }
+      updateGrid();
+    }
+
+    function updateGrid() {
+      document.querySelectorAll(".clothing-section article").forEach((el) => {
+        el.style.display = "none";
+        console.log(selectedCategories);
+        for (let i = 0; i < selectedCategories.length; i++) {
+          // console.log(el.hasAttribute("data-" + selectedCategories[i]));
+          if (el.hasAttribute("data-" + selectedCategories[i])) {
+            el.style.display = "block";
+          }
+        }
+        if (selectedCategories.length == 0) {
+          el.style.display = "block";
+        }
+      });
+    }
+  </script>
 {% endblock %}
