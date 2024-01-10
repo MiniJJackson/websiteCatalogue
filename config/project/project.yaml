@@ -1,4 +1,4 @@
-dateModified: 1703721353
+dateModified: 1704903943
 email:
   fromEmail: r0889235@student.thomasmore.be
   fromName: website-catalogue-jenna
@@ -26,6 +26,7 @@ meta:
     949e0b94-ccdf-4d84-83e5-820e7b264241: 'intro text' # intro text
     5979cadc-6af2-42c3-81c4-3f1e0fa9c44e: 'Store Categories' # Store Categories
     9322f062-f29d-4a84-bc31-048b99079f9c: header # header
+    913583b2-c61d-4dac-a7f1-a6a980710247: redactText # redactText
     b4c1e840-b1f4-45c6-9bca-792841f68790: clothing # clothing
     bde4c2bf-2d99-405d-8328-2a8a6d1a2622: 'rich text' # rich text
     bfe79ef9-ca08-4e13-88fe-b0c867e5c150: 'Store categories' # Store categories
@@ -48,6 +49,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
