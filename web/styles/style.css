@@ -1,15 +1,25 @@
-body {
-  background-color: #D7CCDF;
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  color: #14161F;
+/*--- FONTS ---*/
+
+@font-face {
+  font-family: "AmazoneEmber";
+  src: url(../styles/fonts/allAmazonFonts/AmazonEmber_Rg.ttf);
+
 }
+
+
+body {
+  background-color: #78ABA9;
+  font-family: "AmazoneEmber";
+  line-height: 1.5;
+  color: #0D0D1F;
+}
+
 /*--- GENERAL ---*/
 
 
 
 header {
-  background-color: #f1f1f1;
+  background-color: #3A9AA3;
   padding: 1em;
 
 }
@@ -17,7 +27,7 @@ header {
 h1,
 h2,
 h3 {
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h1 {
@@ -37,15 +47,13 @@ h2 a:hover {
 
 h2,
 .highlight {
-  color: #96c6f3;
+  color: #F1C8C1;
+  font-weight: 700;
 }
 
 
 /*--- NAV ---*/
 
-/*header{
-  background-color: #757CA3;
-}*/
 
 nav li {
   padding: 1em;
@@ -58,7 +66,7 @@ a {
 
 
 nav a:hover {
-  color: #C6DDF2;
+  color: #F1C8C1;
 }
 
 .button {
@@ -117,7 +125,8 @@ nav a {
 
 .clothing-section article {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-  background-color: #C6DDF2;
+  background-color: #f1f1f1;
+  border: 3px solid #3A9AA3;
   padding: 1.2em;
   margin-bottom: 1.5em;
   border-radius: 5px;
@@ -137,6 +146,14 @@ nav a {
   display: block;
   margin: 0 auto;
   text-align: center;
+  padding: 0.2em;
+  width: 100px;
+  border: 1px solid #3A9AA3;
+  border-radius: 5px;
+}
+.readMore:hover{
+  background-color: #3A9AA3;
+  color: #fff;
 }
 
 
