@@ -36,7 +36,10 @@ return [
                       'id' => $entry->id,
                       'title' => $entry->title,
                       'fullText' => $entry->fullText,
+                      'brand' => $entry->brand,
+                      'price' => $entry->price,
                       'bannerImg' => str_replace("https", "http", $entry->bannerImage->one()->getUrl('bannerImage')),
+                      'thumbImg' => str_replace("https", "http", $entry->bannerImage->one()->getUrl('thumbnailImage')),
                   ];
               },
             ];

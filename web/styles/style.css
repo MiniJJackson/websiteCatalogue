@@ -49,6 +49,7 @@ h1 {
 .clothing-section h3{
   margin: 0;
   font-size: 1em;
+  color:#3A9AA2;
 }
 
 h2 a:hover {
@@ -290,7 +291,7 @@ nav a {
 
 }
 
-.frontpageClothes a,.topDetail h2, .all-clothing a{
+.frontpageClothes a,.topDetail h2,.all-clothing a{
   color:#3A9AA2;
 }
 
@@ -316,6 +317,12 @@ nav a {
   margin: 0 auto;
   margin-bottom: 2em;
   text-align: center;
+}
+
+.about-section a{
+  color: #F1C8C1;
+  text-shadow: #C6DDF2 1px 1px;
+  font-size: 28px;
 }
 
 
