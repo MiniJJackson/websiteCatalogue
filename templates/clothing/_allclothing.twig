@@ -25,12 +25,14 @@
                 <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
                 <h3>{{entry.brand}}</h3>
                 <p>{{entry.introText}}</p>
-                <div class="categories">
-                        {% for category in entry.storeCategories %}
-                            <span>{{category}}</span>
-                        {% endfor %}
+                <div class="flexTitle">
+                  <div class="categories">
+                          {% for category in entry.storeCategories %}
+                              <span>{{category}}</span>
+                          {% endfor %}
+                  </div>
+                   <p class="money">{{entry.price}} &euro;</p>
                 </div>
-                <p>{{entry.price}} &euro;</p>
             </div>
         </article>
         {% endfor %}

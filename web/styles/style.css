@@ -180,6 +180,7 @@ nav a {
 
 
 /*---  CATEGORIESS ---*/ 
+
 /* MAYBE PUT THEM NEXT TO CLOTHES */
 
 
@@ -189,8 +190,15 @@ nav a {
   font-size: 0.75rem;
   padding: 0.5rem;
   border-radius: 5px;
-  border: 1px solid #F6F4F4;
+  border: 1px solid #F1C8C1;
+}
 
+.categories{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px
 }
 
 .clothing-categories {
@@ -224,6 +232,7 @@ nav a {
   color: #fff;
   background-color: #C6DDF2;
 }
+
 
 
 /*--- DETAILS --- NOT GUUDD */
@@ -273,11 +282,24 @@ nav a {
 
 }
 
-.frontpageClothes a,.topDetail h2{
-  color:#3A9AA2
+.frontpageClothes a,.topDetail h2, .all-clothing a{
+  color:#3A9AA2;
 }
+
 /*-- NOT GUUDD --*/
 
+
+.money{
+  color:#3A9AA2;
+  font-size: 18px;
+}
+
+.flexTitle{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 10px;
+}
 
 /*--- ABOUT ME ---*/
 
@@ -481,4 +503,10 @@ footer a{
   .all-clothing.clothing-section article {
     display: block;
   }
+  .flexBox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
