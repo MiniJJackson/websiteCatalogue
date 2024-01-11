@@ -3,7 +3,10 @@
 @font-face {
   font-family: "AmazoneEmber";
   src: url(../styles/fonts/allAmazonFonts/AmazonEmber_Rg.ttf);
-
+}
+@font-face{
+  font-family: "BookerlyDisplay";
+  src: url(../styles/fonts/allAmazonFonts/AmazonEmber_Rg.ttf);
 }
 
 
@@ -19,7 +22,7 @@ body {
 
 
 header {
-  background-color: #3A9AA3;
+  background-color: #3A9AA2;
   padding: 1em;
 
 }
@@ -48,6 +51,7 @@ h2 a:hover {
 h2,
 .highlight {
   color: #F1C8C1;
+  font-style: italic;
   font-weight: 700;
 }
 
@@ -60,7 +64,7 @@ nav li {
 }
 
 a {
-  color: #14161F;
+  color: #1d2636;
   text-decoration: none;
 }
 
@@ -69,19 +73,7 @@ nav a:hover {
   color: #F1C8C1;
 }
 
-.button {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
 
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  color: #757CA3;
-  background-color: #f1f1f1;
-  border: 1px solid #C6DDF2;
-
-  cursor: pointer;
-}
 
 #nav-menu {
   list-style-type: none;
@@ -92,25 +84,54 @@ nav a:hover {
 
 #nav-menu a {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 nav a {
   text-decoration: none;
-  color: #232323;
+  color: #2b2b2b;
   transition: color 0.3s ease;
+  font-family: "BookerlyDisplay";
+  font-weight: 400;
 }
 
+/* BUTTONS */
+
+.button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #C6DDF2;
+
+  cursor: pointer;
+}
 
 .btn-more {
   display: block;
   text-align: center;
+  margin-bottom: 40px;
   width: 150px;
   transition: all 0.5s;
-  margin-bottom: 40px;
+}
+
+.btn-read{
+  margin-bottom: 10px;
+  border: #3A9AA2 1px solid;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-more:hover {
+  background-color: #C6DDF2;
+  color: #fff;
+}
+
+.btn-read:hover{
   background-color: #C6DDF2;
   color: #fff;
 }
@@ -126,7 +147,7 @@ nav a {
 .clothing-section article {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   background-color: #f1f1f1;
-  border: 3px solid #3A9AA3;
+  border: 3px solid #3A9AA2;
   padding: 1.2em;
   margin-bottom: 1.5em;
   border-radius: 5px;
@@ -148,11 +169,12 @@ nav a {
   text-align: center;
   padding: 0.2em;
   width: 100px;
-  border: 1px solid #3A9AA3;
+  border: 1px solid #3A9AA2;
+  background-color: #C6DDF2;
   border-radius: 5px;
 }
 .readMore:hover{
-  background-color: #3A9AA3;
+  background-color: #3A9AA2;
   color: #fff;
 }
 
@@ -208,7 +230,7 @@ nav a {
 
 .clothing-details {
   max-width: 900px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
@@ -229,7 +251,7 @@ nav a {
   margin-left: 2rem;
 }
 
-.clothing-details h3{
+.frontpageClothes h3, .clothing-details h3{
   color: #9FB4CC;
 }
 
@@ -250,6 +272,10 @@ nav a {
   margin-left: 20px;
 
 }
+
+.frontpageClothes a,.topDetail h2{
+  color:#3A9AA2
+}
 /*-- NOT GUUDD --*/
 
 
@@ -260,7 +286,6 @@ nav a {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  background-color: #C6DDF2;
 }
 
 
@@ -268,12 +293,15 @@ nav a {
 
 footer {
   
-  background-color: #f1f1f1;
-  color: #757CA3;
+  background-color: #3A9AA2;
+  color: #F1F1F1;
   padding: 1em;
   text-align: center;
 }
 
+footer a{
+  color: #F1C8C1
+}
 
 /*--- MEDIA QUERIES ---*/
 
@@ -281,12 +309,12 @@ footer {
 
   #nav-menu {
     position: absolute;
-    width: 450px;
+    width: 200px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
 
-    background-color: #9FB4CC;
+    background-color: #3A9AA2;
     /* to stop flickering of text in safari */
 
     transform-origin: 0% 0%;

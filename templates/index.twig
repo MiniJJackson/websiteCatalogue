@@ -13,11 +13,11 @@
             <source media="(min-width:960px)" srcset="{{entry.bannerImage.one().url('thumbnailImage')}}">
             <img src="{{entry.bannerImage.one().url('thumbnailImage')}}" alt="">
             </picture>
-            <div>
+            <div class="frontpageClothes">
                 <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
-                <h3>{{entry.brand}}</h3>
+                <h3>{{entry.brand}} {# &nbsp; {{entry.price}} #}</h3>
                 <p>{{entry.introText}}</p>
-                <a class="readMore" href="{{entry.url}}">read more</a>
+                <a class="button btn-read" href="{{entry.url}}">read more</a>
             </div>
         </article>
     {% endfor %}
