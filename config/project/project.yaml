@@ -1,4 +1,4 @@
-dateModified: 1704983872
+dateModified: 1704994307
 email:
   fromEmail: r0889235@student.thomasmore.be
   fromName: website-catalogue-jenna
@@ -51,6 +51,10 @@ meta:
     fe1e0498-1917-46f6-963f-c9121c2cf577: Default # Default
 plugins:
   abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
