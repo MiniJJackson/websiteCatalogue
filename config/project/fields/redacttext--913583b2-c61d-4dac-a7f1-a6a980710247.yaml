@@ -1,7 +1,7 @@
 columnSuffix: tbhgbmwj
 contentColumnType: text
 fieldGroup: fc9333db-6621-4d4f-ba22-77708c9499dc # Common
-handle: redacttext
+handle: redactText
 instructions: null
 name: redactText
 searchable: false

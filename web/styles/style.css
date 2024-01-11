@@ -6,9 +6,12 @@
 }
 @font-face{
   font-family: "BookerlyDisplay";
-  src: url(../styles/fonts/allAmazonFonts/AmazonEmber_Rg.ttf);
+  src: url(../styles/fonts/allAmazonFonts/BookerlyDisplay_Rg.ttf);
 }
-
+@font-face{
+  font-family: "AmazonEmberCd";
+  src: url(../styles/fonts/allAmazonFonts/AmazonEmberDisplay_Rg.ttf);
+}
 
 body {
   background-color: #78ABA9;
@@ -36,7 +39,12 @@ h3 {
 h1 {
   margin: 1em 0;
   text-align: center;
-  font-size: 1.75em;
+  font-size: 2em;
+  font-family: "AmazonEmberCd";
+}
+
+.diomand{
+  color:#F1C8C1
 }
 .clothing-section h3{
   margin: 0;
@@ -304,9 +312,9 @@ nav a {
 /*--- ABOUT ME ---*/
 
 .about-section {
-  padding: 2em;
   max-width: 900px;
   margin: 0 auto;
+  margin-bottom: 2em;
   text-align: center;
 }
 

@@ -2,11 +2,15 @@
 
 {% block content %}
 <section class="about-section">
+<h1> <span class="diomand">&#9830; ~</span> About me <span class="diomand">~ &#9830;</span></h1>
     {{entry.richText}}
 
     <picture>
         <source media="(min-width:1000px)" srcset="{{entry.aboutMeImage.one().url('aboutMeImage')}}">
         <img src="{{entry.aboutMeImage.one().url('aboutMeImage')}}" alt="">
     </picture>
+    <div class="flexBox">
+        {{entry.redactText}}
+    </div> 
 </section>
 {% endblock %}

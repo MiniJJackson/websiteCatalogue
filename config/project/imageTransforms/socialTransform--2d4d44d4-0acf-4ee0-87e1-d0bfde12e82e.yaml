@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: socialTransform
+height: 50
+interlace: none
+mode: fit
+name: 'social transform'
+position: center-center
+quality: null
+upscale: true
+width: 50

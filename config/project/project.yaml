@@ -1,4 +1,4 @@
-dateModified: 1704903943
+dateModified: 1704983872
 email:
   fromEmail: r0889235@student.thomasmore.be
   fromName: website-catalogue-jenna
@@ -11,12 +11,21 @@ fs:
       path: '@webroot'
     type: craft\fs\Local
     url: '@web'
+  socialAssets:
+    hasUrls: false
+    name: 'social Assets'
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: null
 meta:
   __names__:
     0cf613ab-bc4f-4c37-a822-d879ae048be1: brand # brand
+    2d4d44d4-0acf-4ee0-87e1-d0bfde12e82e: 'social transform' # social transform
     5c376573-4a59-4922-8247-2acaf440f446: Default # Default
     6be3b7cb-7a64-4c2e-93a9-23168b5fe4e4: footer # footer
     6e810cb9-8c20-4755-a797-96bd6f846e03: website-catalogue-jenna # website-catalogue-jenna
+    7ee5e54b-4ed4-47d4-a864-01bf2b64b284: 'social assets' # social assets
     32ba06a5-e30c-4f7e-82d9-4b336ef1f95a: 'banner image' # banner image
     44b7e98b-b731-4515-bf97-08345b465c53: website-catalogue-jenna # website-catalogue-jenna
     47b4367b-f93a-41b8-aceb-0529979042b0: footer # footer
